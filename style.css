@@ -1,0 +1,49 @@
+* {
+	line-height: 1.6;
+	text-align: center;
+	margin: 0 auto;
+	box-sizing: border-box;
+	left: 0;
+}
+
+/* General */
+
+.contact-btn {
+	padding: 1rem;
+	margin: 1rem;
+	background: blue;
+	color: black;
+}
+
+/* Navigation */
+
+.navigation {
+	display: flex;
+	margin: 2em;
+}
+
+.nav-items {
+	display: flex;
+	text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+	max-width: 500px;
+}
+
+.hero-intro,
+.hero-desc {
+	margin: 1em;
+}
+
+/* Projects */
+
+.projects {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.project-container {
+}
